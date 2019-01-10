@@ -4,6 +4,23 @@ Esse é um teste focado em design de código, e conhecimento de orientação a o
 
 ## Apresentação do problema
 
+A clínica _Exemplo_ precisa exibir a listagem de seus médicos separados por especialidade em seu site para que seus pacientes tenham acesso. Essa clínica utiliza o Feegow que possui toda a api necessária para isso. 
+Link da documentação: https://clinic.feegow.com.br/components/public/api/documentation 
+
+  1- A tela inicial deve ser um SELECT contendo a listagem de todas as especialidades que a clínica trabalha (método na documentação: ``GET /specialties/list``). 
+  
+  ![Exemplo do SELECT](https://image.prntscr.com/image/krKCLaZGT1O3rf4h4ETLow.png)
+  
+  
+  2- Quando o usuário escolhe uma especialidade, é executado um AJAX para buscar os profissionais que possuem aquela especialidade e exibido em tela (método na documentação: ``GET /professional/list``). 
+
+  ![Exemplo do SELECT](https://image.prntscr.com/image/v4cm7l99TOuvcyhHuIgaJw.png)
+
+  3- Quando o usuário clica em "AGENDAR", será exibido um formulário que o usuário irá preencher e clicar em "ENVIAR".
+  
+  ![Exemplo do SELECT](https://image.prntscr.com/image/w34r0YIUQsmlJcq7DcaIQA.png)
+  
+   3.1- Quando o usuário enviar o formulário, salve todas as informações em um banco de dados relacional contendo: **especialidade_id, profissional_id, nome, cpf, como_conheceu_id, nascimento e data_hora**.
 
 
 ## Tecnologias usadas
