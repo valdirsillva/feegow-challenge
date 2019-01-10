@@ -20,7 +20,7 @@ Link da documentação: https://clinic.feegow.com.br/components/public/api/docum
   
   ![Exemplo do SELECT](https://image.prntscr.com/image/w34r0YIUQsmlJcq7DcaIQA.png)
   
-   3.1- Quando o usuário enviar o formulário, salve todas as informações em um banco de dados relacional contendo: **especialidade_id, profissional_id, nome, cpf, como_conheceu_id, nascimento e data_hora**.
+   3.1- Quando o usuário enviar o formulário, salve todas as informações em um banco de dados relacional contendo: **especialidade_id, profissional_id, nome, cpf, como_conheceu_id (GET /patient/list-sources), nascimento e data_hora**.
 
 
 ## Tecnologias usadas
