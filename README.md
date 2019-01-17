@@ -21,6 +21,8 @@ Link da documentação: https://clinic.feegow.com.br/components/public/api/docum
   ![Exemplo do SELECT](https://image.prntscr.com/image/w34r0YIUQsmlJcq7DcaIQA.png)
   
   4- Quando o usuário enviar, deverá enviar o formulário por AJAX e salvar todas as informações em um banco de dados relacional contendo: **specialty_id, professional_id, name, cpf, source_id (GET /patient/list-sources), birthdate e date_time**.
+      
+  Obs: A listagem do campo "Como conheceu" deve vir da api (método ``GET /patient/list-sources`` )
   
   5- Após salvar as informações exibir uma informação ao usuário que os dados foram salvos.
 
