@@ -36,14 +36,6 @@ Os pré-requisitos para a aplicação:
 - Banco deve ser relacional, de preferencia MySQL
 - Documentação sucinta e explicativa de como rodar seu código e levantar os ambientes.
 
-## O que gostaríamos de ver (se der tempo)
-
-- Uso de um framework MVC PHP (Laravel, CodeIgniter, Symphony, etc)
-- Teste unitários.
-- Pre-processadores de front (Gulp, Grunt ou Webpack).
-- Aplicação rodando em Docker Containers.
-- CRUD completo e funcional, primeiramente da entidade Formulário, e Usuários como um plus.
-
 ## Avaliação
 
 Para nos enviar seu código, você poderá escolher as 3 opções abaixo:
