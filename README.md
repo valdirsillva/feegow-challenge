@@ -41,8 +41,8 @@ Os pré-requisitos para a aplicação:
 Para nos enviar seu código, você poderá escolher as 3 opções abaixo:
 
 - Fazer um fork desse repositório e nos mandar uma pull-request
-- Dar acesso ao seu repositório privado no Github ou Bitbucket para educostachaves@gmail.com e  viniciusmaia.tx@gmail.com.
-- Enviar um git bundle do seu repositório para os e-mail educostachaves@gmail.com e viniciusmaia.tx@gmail.com.
+- Dar acesso ao seu repositório privado no Github ou Bitbucket para viniciusmaia.tx@gmail.com.
+- Enviar um git bundle do seu repositório para os e-mail viniciusmaia.tx@gmail.com.
 
 Caso opte por fazer um Pull-Request, deixe ele explicativo apontando tudo que precisa ser feito para rodar sua aplicação. 
 
