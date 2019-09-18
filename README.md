@@ -6,7 +6,7 @@ Esse é um teste focado em design de código, e conhecimento de orientação a o
 ## Apresentação do problema
 
 A clínica _Exemplo_ precisa exibir a listagem de seus médicos separados por especialidade em seu site para que seus pacientes tenham acesso. Essa clínica utiliza o Feegow que possui toda a api necessária para isso. 
-Link da documentação: https://clinic.feegow.com.br/components/public/api/documentation 
+Link da documentação: https://api.feegow.com.br/api/documentation 
 
   1- A tela inicial deve ser um SELECT contendo a listagem de todas as especialidades que a clínica trabalha (método na documentação: ``GET /specialties/list``). 
   
