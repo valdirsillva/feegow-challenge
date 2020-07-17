@@ -32,7 +32,7 @@ Link da documentação: https://api.feegow.com.br/api/documentation
 
 Os pré-requisitos para a aplicação:
 
-- Use o NODEJS/PHP como linguagem backend.
+- Use o PHP como linguagem backend.
 - Usar Bootstrap ou qualquer framework front-end de sua preferência.
 - Banco deve ser relacional, de preferencia MySQL/POSTGRESQL
 - Documentação sucinta e explicativa de como rodar seu código e levantar os ambientes.
