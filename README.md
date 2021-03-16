@@ -42,8 +42,8 @@ Os pré-requisitos para a aplicação:
 Para nos enviar seu código, você poderá escolher as 3 opções abaixo:
 
 - Fazer um fork desse repositório e nos mandar uma pull-request
-- Dar acesso ao seu repositório no Github para viniciusmaia@feegow.com.br.
-- Enviar um git bundle do seu repositório para os e-mail viniciusmaia@feegow.com.br.
+- Dar acesso ao seu repositório no Github para _FeegowWelcomeTech_ .
+- Enviar um git bundle do seu repositório para os e-mail welcome.tech@feegow.com.br.
 
 Caso opte por fazer um Pull-Request, deixe ele explicativo apontando tudo que precisa ser feito para rodar sua aplicação. 
 
@@ -53,6 +53,6 @@ Caso opte por fazer um Pull-Request, deixe ele explicativo apontando tudo que pr
 - Tente escrever seu codigo o mais claro e limpo possível. Código deve ser legível assim como qualquer texto dissertativo.
 - Se destaque mostrando algo interessante e surpreendente. Isso sempre fará diferença.
 
-Qualquer dúvida técnica, envie uma mensagem para viniciusmaia@feegow.com.br.
+Qualquer dúvida técnica, envie uma mensagem para welcome.tech@feegow.com.br.
 
 Você terá 3 dias para fazer esse teste, a partir do recebimento deste desafio. Sucesso!
