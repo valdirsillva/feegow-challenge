@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.flextop {
+  display: flex;
+  height: 80px;
+  background: #4c9bd8;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flextop > .item > span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.flextop > .item > select {
+  width: 230px;
+  border: 0;
+  border-radius: 7px;
+  padding: 0.775rem 0;
+}
+
+.flextop > .item > button {
+  padding: 0.2rem 1.44rem;
+  border-radius: 20px;
+  border: 0;
+  background: #6ac36f;
+  cursor: pointer;
+}
+
+.flextop > .item > button:hover {
+  filter: brightness(0.9);
+}
+
+.select > select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
+svg {
+  fill: #4c9bd8;
+  margin-right: 22px;
+
+  position: relative;
+  right: 35px;
+  z-index: 1;
+  cursor: pointer;
+
+  width: 15px;
+}
+/* .select-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 30px;
+    height: 36px;
+    pointer-events: none;
+    border: 2px solid #962d22;
+    padding-left: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .select-icon svg.icon {
+    transition: fill 0.3s ease;
+    fill: white;
+  } */
