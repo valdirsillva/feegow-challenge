@@ -1,0 +1,27 @@
+{
+    "name":"valdirsillva/feegow-challenge",
+    "description": "challenge api",
+    "licence":"MIT",
+    "authors": [
+		{
+			"name": "valdir",
+			"email": "valdirpiresba@gmail.com",
+			"role": "Developer"
+		}
+	],
+    "config": {
+		"vendor_dir": "vendor"
+	},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+
+    "require": {
+		"vlucas/phpdotenv": "^5.4",
+		"phpmailer/phpmailer": "^6.5"
+	}
+
+}
