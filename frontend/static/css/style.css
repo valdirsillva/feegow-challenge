@@ -11,6 +11,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+
+  background: #e8e4e4;
 }
 
 .flextop {
@@ -47,35 +49,83 @@ body {
   filter: brightness(0.9);
 }
 
-.select > select {
-  -moz-appearance: none; /* Firefox */
-  -webkit-appearance: none; /* Safari and Chrome */
-  appearance: none;
+.card {
+  margin: 1rem 0;
+  border-radius: 25px;
+
+  box-shadow: 1px 1px 10px 0px;
+  color: #dbd0d0;
 }
 
-svg {
-  fill: #4c9bd8;
-  margin-right: 22px;
-
-  position: relative;
-  right: 35px;
-  z-index: 1;
-  cursor: pointer;
-
-  width: 15px;
+form {
+  display: contents;
 }
-/* .select-icon {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    width: 30px;
-    height: 36px;
-    pointer-events: none;
-    border: 2px solid #962d22;
-    padding-left: 5px;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-  }
-  .select-icon svg.icon {
-    transition: fill 0.3s ease;
-    fill: white;
-  } */
+
+.card-results {
+  width: 90%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4d4d4d;
+  margin-top: 2rem;
+  margin-left: 18px;
+  padding: 0 10%;
+}
+.card-items {
+  width: 80%;
+  display: flex;
+
+  align-items: center;
+  justify-content: left;
+  margin-top: 1rem;
+  margin-left: 10%;
+
+  flex-wrap: wrap;
+}
+
+.card-body {
+  display: flex;
+  gap: 10px;
+}
+
+.card-body > img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.button-schedule {
+  width: 130px;
+  display: block;
+
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+  margin-top: 0.4rem;
+  border: 0;
+  background: #6ac36f;
+
+  text-transform: uppercase;
+}
+
+.button-schedule:hover {
+  filter: brightness(0.9);
+  background: #6ac36f;
+}
+
+.info > h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.info > span {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.info h4,
+.info span {
+  color: #4d4d4d;
+}
