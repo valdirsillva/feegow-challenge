@@ -31,10 +31,10 @@ body {
 }
 
 .flextop > .item > select {
-  width: 230px;
+  width: 290px;
   border: 0;
   border-radius: 7px;
-  padding: 0.775rem 0;
+  padding: 0.775rem 1rem;
 }
 
 .flextop > .item > button {
@@ -165,4 +165,91 @@ form > h3 {
   border-radius: 20px;
   border-color: #6ac36f !important;
   background-color: #6ac36f !important;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(./iconmonstr-arrow-80-24.png);
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 14px;
+  padding: 1rem;
+  padding-right: 2rem;
+  width: 35px;
+}
+
+.loader,
+.progresso {
+  display: flex;
+}
+
+.loader,
+.loader-text,
+.loader-text-in {
+  position: fixed;
+}
+
+.loader {
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  /* background: #673ab7; */
+}
+
+.progresso,
+.progresso-in {
+  width: 200px;
+  height: 200px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #2ad178;
+  border-left: 16px solid #2ad178;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+  z-index: 1;
+}
+
+.progresso {
+  position: absolute;
+  margin: 15rem;
+  display: flex;
+}
+
+.progresso-in {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.loader-text {
+  margin: 20rem;
+  display: block;
+  color: #4c9bd8;
+}
+
+.loader-text-in {
+  margin: auto 36.5%;
+  display: block;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

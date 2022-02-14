@@ -7,9 +7,8 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
 use App\Provider\ApiProvider;
+
 use App\Controller\ControllerShendule;
-
-
 
 $api = new ApiProvider;
 
@@ -25,23 +24,17 @@ if ($method === 'POST' AND $decoded['action'] === 'ADD') {
 }
 
 if (isset($_GET['id'])) {
-
-   $endpoint = $_GET['specialties'] ?? '';
    $endpoint = "https://api.feegow.com/v1/api/professional/list";
    $data = $api->get($endpoint);
    echo $data;
-
    die;
 }
 
 if (isset($_GET['getlist'])) {
-    
    $endpoint = "https://api.feegow.com/v1/api/patient/list-sources";
    $data = $api->get($endpoint);
    echo $data;
-
    die;
-
 }
 
 $endpoint = "https://api.feegow.com/v1/api/specialties/list";

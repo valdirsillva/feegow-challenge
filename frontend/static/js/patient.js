@@ -23,7 +23,7 @@ const buttonClick = document.querySelector('button');
     DATA['specialties'] = specialties;
     
   
-    const resource = `http://localhost/feegow/feegow-challenge/app/index.php?getlist=source_id`;
+    const resource = `http://localhost/feegow-challenge/app/index.php?getlist=source_id`;
 
     fetch(resource)
     .then((response) => {
@@ -63,7 +63,7 @@ function setValues( input ) {
      */
 
      buttonClick.addEventListener("click", async () => {
-        var URL = 'http://localhost/feegow/feegow-challenge/app/index.php'; 
+        var URL = 'http://localhost/feegow-challenge/app/index.php'; 
         let keys = Object.keys(DATA);
 
         if(keys.length < 6) {
@@ -114,3 +114,6 @@ function createNodeDOM(element) {
 function append(parent, element) {
     return parent.appendChild(element);
 }
+
+
+

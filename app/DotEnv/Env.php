@@ -12,7 +12,7 @@ class Env
 {
     public function __construct() 
     {
-        $path =   $_SERVER['DOCUMENT_ROOT'] .'/Feegow/feegow-challenge/';
+        $path =   $_SERVER['DOCUMENT_ROOT'] .'/feegow-challenge/';
         $dotenv = Dotenv\Dotenv::createImmutable($path);
         $dotenv->load();
     }
