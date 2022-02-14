@@ -4,16 +4,13 @@
 
 namespace App\Provider;
 
-use Dotenv;
+use App\DotEnv\Env;
 
-class ApiProvider 
+class ApiProvider extends Env
 {   
     public function __construct() 
     {        
-        $path =   $_SERVER['DOCUMENT_ROOT'] .'/Feegow/feegow-challenge/';
-        $dotenv = Dotenv\Dotenv::createImmutable($path);
-        $dotenv->load();
-
+        parent::__construct();
     }
 
     public function get(string $endPoint) 

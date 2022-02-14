@@ -103,7 +103,7 @@ function createBox(data) {
    
     data.map(medico => {
 
-        const {foto, nome, crm, profissional_id } = medico;
+        const {foto, nome, crm, profissional_id, especialidade_id } = medico;
 
         let image = foto === null ? 'default.jpg' : foto;
 
@@ -115,7 +115,7 @@ function createBox(data) {
             <div class="info">
                 <h4>${nome}</h4>
                 <span>CRM ${crm}</span>
-                <a href="?schedule&id=${profissional_id}"  class="btn btn-primary button-schedule">
+                <a href="schedule.html?professional=${profissional_id}&specialties=${especialidade_id}"  class="btn btn-primary button-schedule">
                 Agendar
                 </a>
             </div>
